@@ -6,12 +6,12 @@ This repository contains the WebRTC library for Android development built from t
 ## How to use it in an Android Studio project?
 1. Go to the `libs` directory of your android studio project.
 2. Paste the `libwebrtc.aar` file in this directory.
-3. Go to `build.gradle(module)` file and add/modify the following line inside the `dependencies{...}` scope:
+3. Go to `build.gradle (Module)` file and add/modify the following line inside the `dependencies{...}` scope:
 
 
        implementation fileTree(dir: "libs", includes: ["*.aar"])
 
-4. Hit `Sync Project`.
-5. Once sync is done, Go to any Kotlin/Java file and try to import WebRTC classes to check whether everything is proper or not.
+4. Hit `Sync Now`.
+5. Once the sync is done, Check whether the library is included correctly or not by importing WebRTC classes/interfaces. Paste the below line in any Kotlin/Java file to import. If the IDE doesn't show `Unresolved reference: webrtc`, You are good to go!
 
        import org.webrtc.*;
