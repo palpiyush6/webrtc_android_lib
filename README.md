@@ -1,5 +1,5 @@
 # WebRTC Android Library
-This repository contains the WebRTC library for Android development built from the official Google WebRTC sources synced on 8-April-2023.
+This repository contains the WebRTC library for Android development built from the official Google WebRTC sources. Please check the release section to find the library.
 
     Supported ABIs: armeabi-v7a, arm64-v8a, x86, x86_64
 
